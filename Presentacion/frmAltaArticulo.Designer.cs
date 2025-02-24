@@ -175,16 +175,16 @@ namespace Presentacion
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(34, 357);
+            this.txtDescripcion.Location = new System.Drawing.Point(110, 357);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(290, 98);
+            this.txtDescripcion.Size = new System.Drawing.Size(193, 98);
             this.txtDescripcion.TabIndex = 7;
             // 
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(44, 331);
+            this.lblDescripcion.Location = new System.Drawing.Point(51, 332);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(66, 13);
             this.lblDescripcion.TabIndex = 15;
@@ -231,6 +231,8 @@ namespace Presentacion
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCodigo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(733, 529);
+            this.MinimumSize = new System.Drawing.Size(733, 529);
             this.Name = "frmAltaArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAltaArticulo";

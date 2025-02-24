@@ -78,6 +78,8 @@ namespace Presentacion
             dgvArticulos.Columns["Marca"].Visible = false;
             dgvArticulos.Columns["Categoria"].Visible = false;
             dgvArticulos.Columns["Imagen"].Visible = false;
+            dgvArticulos.Columns["Imagen"].Visible = false;
+            dgvArticulos.Columns["Descripcion"].Visible = false;
 
         }
 

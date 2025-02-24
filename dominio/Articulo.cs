@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,8 +28,10 @@ namespace dominio
 
         public decimal Precio { get; set; }
 
+        [DisplayName("Categoría")]
         public Elemento Categorias { get; set; }
 
+        [DisplayName("Marca")]
         public Elemento Marcas { get; set; }
 
 

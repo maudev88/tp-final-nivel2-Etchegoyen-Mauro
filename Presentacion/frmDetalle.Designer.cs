@@ -127,7 +127,7 @@ namespace Presentacion
             // lblCodigo2
             // 
             this.lblCodigo2.AutoSize = true;
-            this.lblCodigo2.Location = new System.Drawing.Point(161, 28);
+            this.lblCodigo2.Location = new System.Drawing.Point(141, 28);
             this.lblCodigo2.Name = "lblCodigo2";
             this.lblCodigo2.Size = new System.Drawing.Size(0, 13);
             this.lblCodigo2.TabIndex = 35;
@@ -135,7 +135,7 @@ namespace Presentacion
             // lblNombre2
             // 
             this.lblNombre2.AutoSize = true;
-            this.lblNombre2.Location = new System.Drawing.Point(161, 77);
+            this.lblNombre2.Location = new System.Drawing.Point(141, 77);
             this.lblNombre2.Name = "lblNombre2";
             this.lblNombre2.Size = new System.Drawing.Size(0, 13);
             this.lblNombre2.TabIndex = 36;
@@ -143,7 +143,7 @@ namespace Presentacion
             // lblPrecio2
             // 
             this.lblPrecio2.AutoSize = true;
-            this.lblPrecio2.Location = new System.Drawing.Point(161, 126);
+            this.lblPrecio2.Location = new System.Drawing.Point(141, 126);
             this.lblPrecio2.Name = "lblPrecio2";
             this.lblPrecio2.Size = new System.Drawing.Size(0, 13);
             this.lblPrecio2.TabIndex = 37;
@@ -151,7 +151,7 @@ namespace Presentacion
             // lblMarca2
             // 
             this.lblMarca2.AutoSize = true;
-            this.lblMarca2.Location = new System.Drawing.Point(161, 219);
+            this.lblMarca2.Location = new System.Drawing.Point(141, 219);
             this.lblMarca2.Name = "lblMarca2";
             this.lblMarca2.Size = new System.Drawing.Size(0, 13);
             this.lblMarca2.TabIndex = 38;
@@ -168,7 +168,7 @@ namespace Presentacion
             // lblCodigoMarca2
             // 
             this.lblCodigoMarca2.AutoSize = true;
-            this.lblCodigoMarca2.Location = new System.Drawing.Point(161, 175);
+            this.lblCodigoMarca2.Location = new System.Drawing.Point(141, 175);
             this.lblCodigoMarca2.Name = "lblCodigoMarca2";
             this.lblCodigoMarca2.Size = new System.Drawing.Size(0, 13);
             this.lblCodigoMarca2.TabIndex = 40;
@@ -185,7 +185,7 @@ namespace Presentacion
             // lblCodigoCategoria2
             // 
             this.lblCodigoCategoria2.AutoSize = true;
-            this.lblCodigoCategoria2.Location = new System.Drawing.Point(161, 262);
+            this.lblCodigoCategoria2.Location = new System.Drawing.Point(141, 262);
             this.lblCodigoCategoria2.Name = "lblCodigoCategoria2";
             this.lblCodigoCategoria2.Size = new System.Drawing.Size(0, 13);
             this.lblCodigoCategoria2.TabIndex = 42;
@@ -193,7 +193,7 @@ namespace Presentacion
             // lblCategoria2
             // 
             this.lblCategoria2.AutoSize = true;
-            this.lblCategoria2.Location = new System.Drawing.Point(161, 309);
+            this.lblCategoria2.Location = new System.Drawing.Point(141, 309);
             this.lblCategoria2.Name = "lblCategoria2";
             this.lblCategoria2.Size = new System.Drawing.Size(0, 13);
             this.lblCategoria2.TabIndex = 43;
@@ -201,7 +201,7 @@ namespace Presentacion
             // lblDescripcion2
             // 
             this.lblDescripcion2.AutoSize = true;
-            this.lblDescripcion2.Location = new System.Drawing.Point(161, 357);
+            this.lblDescripcion2.Location = new System.Drawing.Point(141, 357);
             this.lblDescripcion2.Name = "lblDescripcion2";
             this.lblDescripcion2.Size = new System.Drawing.Size(0, 13);
             this.lblDescripcion2.TabIndex = 44;
@@ -210,7 +210,7 @@ namespace Presentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(657, 401);
+            this.ClientSize = new System.Drawing.Size(657, 434);
             this.Controls.Add(this.lblDescripcion2);
             this.Controls.Add(this.lblCategoria2);
             this.Controls.Add(this.lblCodigoCategoria2);
@@ -230,6 +230,7 @@ namespace Presentacion
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCodigo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(673, 437);
             this.Name = "frmDetalle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmDetalle";
